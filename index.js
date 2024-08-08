@@ -1,1 +1,77 @@
-const a0_0x921f12=a0_0x2cd6;function a0_0x2cd6(_0x34b6a7,_0x29d63d){const _0x3ae510=a0_0x3ae5();return a0_0x2cd6=function(_0x2cd6a9,_0x4899b1){_0x2cd6a9=_0x2cd6a9-0xf3;let _0x25056a=_0x3ae510[_0x2cd6a9];return _0x25056a;},a0_0x2cd6(_0x34b6a7,_0x29d63d);}(function(_0x128307,_0x1cb3a9){const _0x583309=a0_0x2cd6,_0x32074a=_0x128307();while(!![]){try{const _0x4c718e=-parseInt(_0x583309(0x10e))/0x1*(-parseInt(_0x583309(0xf6))/0x2)+parseInt(_0x583309(0x103))/0x3*(-parseInt(_0x583309(0xf7))/0x4)+parseInt(_0x583309(0x11f))/0x5*(-parseInt(_0x583309(0x109))/0x6)+parseInt(_0x583309(0xfb))/0x7*(parseInt(_0x583309(0x111))/0x8)+-parseInt(_0x583309(0x110))/0x9*(-parseInt(_0x583309(0xf5))/0xa)+-parseInt(_0x583309(0xfc))/0xb+parseInt(_0x583309(0x114))/0xc*(parseInt(_0x583309(0x113))/0xd);if(_0x4c718e===_0x1cb3a9)break;else _0x32074a['push'](_0x32074a['shift']());}catch(_0x3d0784){_0x32074a['push'](_0x32074a['shift']());}}}(a0_0x3ae5,0x41178));const {Client,GatewayIntentBits,ActivityType}=require(a0_0x921f12(0x10b));require(a0_0x921f12(0x121))['config']();const express=require('express'),createBotClient=()=>{const _0x315103=a0_0x921f12;return new Client({'intents':[GatewayIntentBits[_0x315103(0x108)],GatewayIntentBits[_0x315103(0x10a)]]});},botTokens=[process[a0_0x921f12(0x118)][a0_0x921f12(0x10c)],process['env'][a0_0x921f12(0xff)],process[a0_0x921f12(0x118)][a0_0x921f12(0x107)],process[a0_0x921f12(0x118)][a0_0x921f12(0x105)],process[a0_0x921f12(0x118)][a0_0x921f12(0x101)]];let currentIndex=0x0;const validTokens=botTokens['filter'](_0x4af205=>_0x4af205),clients=validTokens['map'](createBotClient),app=express(),port=0xbb8;app['get']('/',(_0x37ee90,_0x2c523e)=>{const _0x1bd4ed=a0_0x921f12;_0x2c523e['send'](_0x1bd4ed(0x119));}),app[a0_0x921f12(0xf8)](port,()=>{const _0x173c02=a0_0x921f12;console[_0x173c02(0x112)]('\x1b[36m%s\x1b[0m',_0x173c02(0x100)+port),console[_0x173c02(0x112)](_0x173c02(0x115),_0x173c02(0x11c));});function a0_0x3ae5(){const _0x2cc76c=['TOKEN2','|\x20\x20💮\x20Listening\x20to\x20GlaceYT:\x20http://localhost:','TOKEN5','forEach','3HNnCHB','Listening\x20to\x20Malteser\x20daddy','TOKEN4','exit','TOKEN3','Guilds','696SIwTtY','GuildMessages','discord.js','TOKEN1','|\x20\x20\x20\x20🐇\x20Bot\x20','10mxIzwy','error','270567iPzRxc','806040ptATVT','log','13rUTcWC','2129568vpQeMk','\x1b[36m%s\x1b[0m','user','map','env','Bot\x20Status\x20changed\x20Sucessfully!','all','\x20is\x20ready\x20as\x20','|\x20\x20⭕\x20Powered\x20By\x20GlaceYT','\x20logged\x20in\x20as\x20','login','18885LyaQsX','setPresence','dotenv','Custom','Failed\x20to\x20login','170mCIwBs','85156FwQZds','158008DNjwKi','listen','|\x20\x20\x20\x20✅\x20Bot\x20','dnd','7BBoLHG','5179020NQIcYw','ready','tag'];a0_0x3ae5=function(){return _0x2cc76c;};return a0_0x3ae5();}const updateStatus=_0x159a91=>{const _0x10c1dc=a0_0x921f12;_0x159a91[_0x10c1dc(0x116)][_0x10c1dc(0x120)]({'activities':[{'name':_0x10c1dc(0x104),'type':ActivityType[_0x10c1dc(0xf3)]}],'status':_0x10c1dc(0xfa)});},loginBots=async()=>{const _0x588fdf=a0_0x921f12;try{await Promise[_0x588fdf(0x11a)](clients[_0x588fdf(0x117)]((_0x1d18ae,_0x1e52bb)=>{return new Promise(async(_0x5bbac8,_0x1630fe)=>{const _0x1dc522=a0_0x2cd6;_0x1d18ae['once'](_0x1dc522(0xfd),()=>{const _0x564ae7=_0x1dc522;console[_0x564ae7(0x112)]('\x1b[36m%s\x1b[0m',_0x564ae7(0xf9)+(_0x1e52bb+0x1)+_0x564ae7(0x11b)+_0x1d18ae[_0x564ae7(0x116)][_0x564ae7(0xfe)]),updateStatus(_0x1d18ae),_0x5bbac8();});try{await _0x1d18ae[_0x1dc522(0x11e)](validTokens[_0x1e52bb]),console[_0x1dc522(0x112)](_0x1dc522(0x115),_0x1dc522(0x10d)+(_0x1e52bb+0x1)+_0x1dc522(0x11d)+_0x1d18ae['user'][_0x1dc522(0xfe)]);}catch(_0x56fe24){console[_0x1dc522(0x10f)]('Failed\x20to\x20log\x20in\x20Bot\x20'+(_0x1e52bb+0x1)+':',_0x56fe24),_0x1630fe(_0x56fe24);}});})),setInterval(()=>{const _0x56a2de=_0x588fdf;currentIndex=(currentIndex+0x1)%0x1,clients[_0x56a2de(0x102)](updateStatus);},0x2710);}catch(_0x12a67e){console[_0x588fdf(0x10f)](_0x588fdf(0xf4),_0x12a67e),process[_0x588fdf(0x106)](0x1);}};loginBots();
+const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
+require('dotenv').config();
+const express = require('express');
+
+const createBotClient = () => {
+  return new Client({
+    intents: [
+      GatewayIntentBits.Guilds,
+      GatewayIntentBits.GuildMessages,
+    ],
+  });
+};
+
+const botTokens = [
+  process.env.TOKEN1,
+  process.env.TOKEN2,
+  process.env.TOKEN3,
+  process.env.TOKEN4,
+  process.env.TOKEN5,
+];
+
+let currentIndex = 0;
+
+const validTokens = botTokens.filter(token => token);
+const clients = validTokens.map(createBotClient);
+
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => {
+  res.send('Bot Status changed Sucessfully!');
+});
+
+app.listen(port, () => {
+  console.log(`\x1b[36m%s\x1b[0m`, `|  💮 Listening to GlaceYT: http://localhost:${port}`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|  ⭕ Powered By GlaceYT`);
+});
+
+const updateStatus = (client) => {
+  client.user.setPresence({
+    activities: [{ name: 'Listening to Malteser daddy', type: ActivityType.Custom }],
+    status: 'dnd',
+  });
+};
+
+const loginBots = async () => {
+  try {
+    await Promise.all(clients.map((client, index) => {
+      return new Promise(async (resolve, reject) => {
+        client.once('ready', () => {
+          console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Bot ${index + 1} is ready as ${client.user.tag}`);
+          updateStatus(client);
+          resolve();
+        });
+
+        try {
+          await client.login(validTokens[index]);
+          console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Bot ${index + 1} logged in as ${client.user.tag}`);
+        } catch (error) {
+          console.error(`Failed to log in Bot ${index + 1}:`, error);
+          reject(error);
+        }
+      });
+    }));
+
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % 1;  
+      clients.forEach(updateStatus);
+    }, 10000);
+
+  } catch (error) {
+    console.error('Failed to login', error);
+    process.exit(1);
+  }
+};
+
+loginBots();
